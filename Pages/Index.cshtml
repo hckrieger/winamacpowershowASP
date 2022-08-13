@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<style type="text/css">
+    .banner { display: block; }
+</style>
+
+<a href="/Events/ToyShow" style="color: black; text-decoration: none;">
+    <div class="toy-show front-section">
+        <h2 class="">Annual Farm Toy Show</h2>
+	    <h3>Sunday, January 15th, 2023</h3>
+	    <h4>9:00 A.M. - 3:00 P.M. Eastern</h4>
+    </div>
+</a>
+
+<hr />
+<div class="tractor-brand front-section">
+    <h2>2023 Summer Show</h2>
+    <h3>Featuring Allis-Chalmers & Rumely</h3>
+    <img src=~/files/images/Allis.jpg />
+    <img src="~/files/images/Rumely.jpg" />
+</div>
+<hr />
+<div class="philosophy front-section">
+    <h2>Philosophy of the Northern Indiana Power from the Past, Inc.</h2>
+    <p>The functional purpose of this corporation is to preserve, rejuvenate, and display antique farm machinery and any other form of machinery utilized in the growth of the U.S.A. Futher, it is the intention of the corporation to foster and perpetuate in the minds of all Americans respect, interest, and recognition of the vital role that different forms of machinery, no matter what their power source, have played in the development of our society as a whole.</p>
+</div><hr>
+<div class="scholarships front-section">
+    <h2>Scholarships</h2>
+    <p>Up to three scholarships are available to high school seniors going into agricultural trades.  <a href="{% url 'scholarship' %}">Find out more!</a></p>
+</div>
+
+

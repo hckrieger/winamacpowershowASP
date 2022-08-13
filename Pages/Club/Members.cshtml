@@ -1,0 +1,336 @@
+﻿@page
+@model Winamacpowershow.Pages.Club.MembersModel
+@{
+    ViewData["Title"] = "Club Members";
+}
+
+<div class="club-info info">
+    <h1>Current Club Members</h1>
+
+    <div style="display: block;" class="mb-2">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">See upcoming meeting dates</button>
+    </div>
+
+
+
+        <div class="query-content">
+            <div class="officers">
+				<h2>Officers:</h2>
+
+				<div class="row">
+					<div class="col-sm-2 col-sm-offset-1">
+						<div class="pointer"><!--<img class="headshot" src="/static/images/officer-photos/Crist.JPG">-->
+							<p>President:<br />
+							<strong>John Crist</strong></p>
+						</div>
+						<!-- Modal -->
+
+						<div class="fade modal" id="officer">
+							<div class="modal-dialog"><!-- Modal content-->
+							<div class="modal-content">
+						<div class="modal-header">&times;
+						<h4>President: John Crist</h4>
+						</div>
+
+						<div class="modal-body">
+						<p>John is the current president of the Northern Indiana Power from the Past and had been active with the club for over 25 years. He restored his first tractor in high school and began helping at the show with the sawmill and threshing displays.</p>
+						</div>
+
+						<div class="modal-footer">Close</div>
+						</div>
+						</div>
+						</div>
+						</div>
+
+						<div class="col-sm-2">
+						<div class="pointer"><!--<img class="headshot" src="/static/images/officer-photos/SHankla.JPG">-->
+						<p>Co-vice President:<br />
+						<strong>Scotty Hankla</strong></p>
+						</div>
+						</div>
+						<!-- Modal -->
+
+						<div class="fade modal" id="covice1">
+						<div class="modal-dialog"><!-- Modal content-->
+						<div class="modal-content">
+						<div class="modal-header">&times;
+						<h4>Co-vice President: Scott Hankla</h4>
+						</div>
+
+						<div class="modal-body">
+						<p>Scotty is a Co-Vice President. He has been active with the club for approximately 10 years and focuses on helping with the working displays at the show. He has a huge interest in learning about all antique farm equipment.</p>
+						</div>
+
+						<div class="modal-footer">Close</div>
+						</div>
+						</div>
+						</div>
+
+						<div class="col-sm-2">
+						<div class="pointer"><!--<img class="headshot" src="http://mms.businesswire.com/media/20170109006214/en/563418/5/MarkThom.jpg">-->
+						<p>Co-vice President:<br />
+						<strong>Jeremy Hoover</strong></p>
+						</div>
+						</div>
+						<!-- Modal -->
+
+						<div class="fade modal" id="covice2">
+						<div class="modal-dialog"><!-- Modal content-->
+						<div class="modal-content">
+						<div class="modal-header">&times;
+						<h4>Co-vice President: Jeremy Hoover</h4>
+						</div>
+
+						<div class="modal-body">
+						<p>Jeremy is a Co-Vice President. He has been active with the club for many years and is very involved with the working displays. He currently farms in Pulaski Co. and is a big IH fan.</p>
+						</div>
+
+						<div class="modal-footer">Close</div>
+						</div>
+						</div>
+						</div>
+
+						<div class="col-sm-2">
+						<div class="pointer"><!--<img class="headshot" src="https://s-media-cache-ak0.pinimg.com/originals/da/f5/35/daf535e2cab2814f3846d0eae9c576b4.jpg">-->
+						<p>Secretary:<br />
+						<strong>Rachel Rife</strong></p>
+						</div>
+						</div>
+						<!-- Modal -->
+
+						<div class="fade modal" id="secretary">
+						<div class="modal-dialog"><!-- Modal content-->
+						<div class="modal-content">
+						<div class="modal-header">&times;
+						<h4>Secretary: Rachel Rife</h4>
+						</div>
+
+						<div class="modal-body">
+						<p>Rachel is our secretary and has eagerly helped with the show for most of her life.</p>
+						</div>
+
+						<div class="modal-footer">Close</div>
+						</div>
+						</div>
+						</div>
+
+						<div class="col-sm-2">
+						<div class="pointer"><!--<img class="headshot" src="https://s-media-cache-ak0.pinimg.com/236x/b0/94/5f/b0945f2ed5b1ea4b563fa41b27c6b170.jpg">-->
+						<p>Treasurer:<br />
+						<strong>Cristi Hankla</strong></p>
+						</div>
+						</div>
+						<!-- Modal -->
+
+						<div class="fade modal" id="treasurer">
+						<div class="modal-dialog"><!-- Modal content-->
+						<div class="modal-content">
+						<div class="modal-header">&times;
+						<h4>Treasurer</h4>
+						</div>
+
+						<div class="modal-body">
+						<p>Cristi is our treasurer and has helped with the show for several years. She is a lifelong Pulaski Co. resident and grew up around antique tractors.</p>
+						</div>
+
+						<div class="modal-footer">Close</div>
+						</div>
+						</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-lg-5 directors">
+						<h2>Directors</h2>
+
+						<table>
+							<tbody>
+								<tr>
+									<td>Pete Zahrt</td>
+									<td>Josh Cotner</td>
+									<td>Andy Fanning</td>
+								</tr>
+								<tr>
+									<td>Chuck Knarr</td>
+									<td>&nbsp;</td>
+									<td>Rachelle Ortman</td>
+								</tr>
+								<tr>
+									<td>Don Rife</td>
+									<td>Brenda Gilsinger</td>
+									<td>*Bob Smith</td>
+								</tr>
+								<tr>
+									<td>Bill Weaver</td>
+									<td>Doris Smith</td>
+									<td>Bill Tetzloff</td>
+								</tr>
+								<tr>
+									<td>Josh Wilder</td>
+									<td>&nbsp;</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<h6>Founding Directors (*)</h6>
+					</div><br /><br />
+
+					<div class="advisors col-lg-7">
+						<h2>Advisors</h2>
+
+						<table>
+							<tbody>
+								<tr>
+									<td>Shawn Ashby</td>
+									<td>Karen Gudeman</td>
+									<td>Cathy Lucy</td>
+									<td>Dave Scott</td>
+								</tr>
+								<tr>
+									<td>Laura Baily</td>
+									<td>Connor Hall</td>
+									<td>George Lucy</td>
+									<td>Bob Sheppard, Jr.</td>
+								</tr>
+								<tr>
+									<td>Jean Barnes</td>
+									<td>Chuck Hartle</td>
+									<td>Carol Marks</td>
+									<td>Bob Sheppard, Sr.</td>
+								</tr>
+								<tr>
+									<td>Skip Barnes</td>
+									<td>Janet Haschel</td>
+									<td>Sam Marks</td>
+									<td>Carl Smith</td>
+								</tr>
+								<tr>
+									<td>Bob Benson</td>
+									<td>Mann Hoover</td>
+									<td>David Martin</td>
+									<td>Brad Tetzloff</td>
+								</tr>
+								<tr>
+									<td>Thelma Benson</td>
+									<td>Mont Hoover</td>
+									<td>Regina Martin</td>
+									<td>Chris Zahrt</td>
+								</tr>
+								<tr>
+									<td><strong>*Warren Bickel</strong></td>
+									<td>Chelsey Jones</td>
+									<td>Brian Miller</td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td>Blain Brubaker</td>
+									<td>Connie Jones</td>
+									<td>Eric Miller</td>
+									<td>Chuck Zellers</td>
+								</tr>
+								<tr>
+									<td>Steve Brown</td>
+									<td>Hailey Jones</td>
+									<td>Paula Miller</td>
+									<td>Rebecca Zellers</td>
+								</tr>
+								<tr>
+									<td>Steve Brown Jr.</td>
+									<td>Jack Jones</td>
+									<td>Blake Newman</td>
+									<td>Gil Zimmerman</td>
+								</tr>
+								<tr>
+									<td>Janeen Clark</td>
+									<td>Karen Jones</td>
+									<td>Isaac Rife</td>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td>Steve Cosgray</td>
+									<td>Seth Kasten</td>
+									<td>Jean Rife</td>
+									<td>Paul Gilsinger</td>
+								</tr>
+								<tr>
+									<td>Allen Cotner</td>
+									<td>Barb Knarr</td>
+									<td>Danny Ringen</td>
+									<td>Tom Fanning</td>
+								</tr>
+								<tr>
+									<td>Roy Crist</td>
+									<td>Linda Kroft</td>
+									<td>Brian Roberts</td>
+									<td>Alicia Cotner</td>
+								</tr>
+								<tr>
+									<td>Dan Engle</td>
+									<td>Jim Kuhn</td>
+									<td>Kathy Roberts</td>
+								</tr>
+								<tr>
+									<td>Don Finnegan</td>
+									<td>Dan Logan</td>
+									<td>Judy Schlegelmilch</td>
+								</tr>
+								<tr>
+									<td>Joan Finnegan</td>
+									<td>Steve Logan</td>
+									<td>Tom Schlegelmilch</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+        </div>
+
+    
+
+
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title center">Meeting Dates</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" style="text-align: center">
+					<div class="modal-body" style="text-align:center">
+						<h5>All meetings will start at 6 P.M. on Sundays at the Pulaski County Highway Garage</h5>
+
+						<h5>1131 North US 35 Winamac, IN 46996</h5>
+						&nbsp;
+
+						<p><strong>2022</strong></p>
+
+						<p>March 20th</p>
+
+						<p>April 17th</p>
+
+						<p>May 15th</p>
+
+						<p>June 19th</p>
+
+						<p>August 21st</p>
+
+						<p>September 18th</p>
+
+						<p>October 16th</p>
+
+						<p>November 20st</p>
+					</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,7 @@
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\Winamacpowershow.exe
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\Winamacpowershow.dll
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\Winamacpowershow.deps.json
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\Winamacpowershow.runtimeconfig.json
+C:\Users\hunte\source\repos\ASP\Winamacpowershow\obj\Release\net6.0\PubTmp\Out\Winamacpowershow.pdb

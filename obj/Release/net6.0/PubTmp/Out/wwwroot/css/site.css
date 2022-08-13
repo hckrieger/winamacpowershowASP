@@ -1,0 +1,245 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: #fcfefb;
+}
+
+header {
+    margin-bottom: -16px;
+}
+
+.navbar {
+    background-color: #4c7f7f !important;
+    border-bottom: 1px solid black !important;
+}
+
+nav .navbar-toggler {
+    background-color: #536878 !important;
+    border-radius: 0;
+}
+
+
+nav a {
+    color: black !important;
+    font-size: 17px !important;
+}
+
+nav img.nav-image {
+    height: 55px;
+    width: auto;
+    background-color: white;
+    border: 1px solid black;
+    margin: 0;
+}
+
+nav ul.navbar-nav li.nav-item {
+    padding-left: 1em;
+}
+
+
+img.facebook {
+    padding: 0;
+    margin: 0;
+}
+
+
+nav li.nav-item img.facebook {
+    width: 42px;
+}
+
+.jumbotron {
+    border-bottom: 1px solid black;
+    background-image: url('../files/images/tractor-show.jpg');
+    height: 22.5em;
+    background-size: 97em 35em;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    background-position: center center;
+    position: relative;
+}
+
+.jumbotron img {
+    display: block;
+    margin: 0 auto;
+    height: 175px;
+    width: auto;
+    border: 1px solid black;
+    background-color: white;
+    position: relative;
+    top: 85px;
+    opacity: .85;
+}
+
+.ribbon {
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: .75em .25em;
+    background-color: #4c7f7f;
+    
+}
+
+.ribbon a {
+    color: black !important;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.toy-show {
+    margin-top: 10px;
+}
+
+.front-section {
+    text-align: center;
+}
+
+.front-section p {
+    font-size: 18px;
+}
+
+.tractor-brand img {
+    height: 250px;
+    margin: 10px auto 0 auto;
+    border: 2px solid black;
+}
+
+.banner {
+    display: none;
+}
+
+
+.summer-head {
+    text-align: center
+}
+
+.summer-head .info2 {
+    margin-top: 1em;
+}
+
+.summer-head .info1 img {
+    border: 1px solid black;
+    height: 275px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3em;
+}
+
+.summer-head h4:first-of-type,
+.summer-head .upcoming {
+    display: inline;
+}
+
+.summer-head .upcoming {
+    position: relative;
+    left: 5px;
+}
+
+.blurb {
+    margin-top: 15px;
+}
+
+table.daily-events
+{
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+table.daily-events td {
+    padding: .25em;
+    font-size: 14px;
+}
+
+
+/** Toy Show **/
+.toy-show-head {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.toy-info h2 {
+    font-size: 33px;
+}
+
+.toy-show-image {
+    margin-bottom: 1em;
+}
+
+
+.toy-show-head img {
+    margin: .5em auto 0 auto;
+    border: 1px solid black;
+    height: 225px;
+}
+
+.image-row-1 {
+    border-bottom: 1px solid grey;
+    padding: 2em 0;
+}
+
+.image-row-1 img {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.toy-ad h1 {
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.contract-button a {
+    color: black;
+    text-decoration: none;
+}
+
+
+div.games p:first-of-type {
+    margin-left: 15px;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+     html {
+        font-size: 16px;
+     }
+
+    .summer-map img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .summer-map img {
+        width: 100%;
+    }
+
+    .tractor-brand img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 420px) {
+    .tractor-brand img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
