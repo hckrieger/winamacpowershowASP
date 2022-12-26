@@ -7,6 +7,21 @@
     .banner { display: block; }
 </style>
 
+@if (Model.Notifications.Count > 0)
+{
+     <div class="notifications front-section" style="margin-top: 1em;">
+        @foreach (var item in Model.Notifications)
+        {
+                   <h2>@item.Title</h2>
+                   <p style="color: black">Posted on: @item.DatePublished</p>
+                <h4 style="color: red;">@item.Content</h4>
+
+                    <hr />
+
+        }    
+    </div>
+}
+
 <a href="/Events/ToyShow" style="color: black; text-decoration: none;">
     <div class="toy-show front-section">
         <h2 class="">Annual Farm Toy Show</h2>
